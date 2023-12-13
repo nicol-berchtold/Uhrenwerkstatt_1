@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #cab6a2;
+}
+li {
+  list-style-type: none;
+  float: right;
+  font-size: 15pt;
+  margin-right: 20px;
+}
+
+h1 {
+  color: #414833;
+  font-size: 50pt;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu_sub_section,
+.order_heading {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.coffee_heading {
+  border-bottom: 3pt solid #cab6a2;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-size: 40pt;
+  font-weight: bold;
+  color: #6e4c4b;
+}
+
+.coffee_s_heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3pt solid #cab6a2;
+  border-top: 3pt solid #cab6a2;
+  font-size: 40pt;
+  font-weight: bold;
+  color: #6e4c4b;
+  margin-top: 25px;
+}
+
+.i {
+  color: white;
+  font-size: 100pt;
+}
+.logo_header img {
+  width: 150px;
+  height: auto;
+  border: 2pt solid white;
+  border-radius: 10px;
+}
+
+.logo_header {
+  width: 387px;
+}
+
+.order_heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3pt solid #cab6a2;
+  border-top: 3pt solid #cab6a2;
+  font-size: 40pt;
+  font-weight: bold;
+  color: #6e4c4b;
+  margin-top: 30px;
+}
+
+.drink_name {
+  margin-top: 5px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #656d4a;
+}
+
+.drink_price {
+  margin-top: 5px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+#cart_section {
+  text-align: center;
+}
+
+.cart_item_name {
+  color: #656d4a;
+  margin-top: 20px;
+  margin-top: 20px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.cart_item_price {
+  padding-top: 5px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.cart_item_num {
+  padding-top: 5px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.decrease_num {
+  margin-top: 5px;
+  font-size: 15pt;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #6e4c4b;
+  border: 2pt solid #656d4a;
+  color: white;
+}
+
+.decrease_num:hover {
+  background-color: #656d4a;
+  border: 2pt solid #6e4c4b;
+}
+
+.decrease_num a {
+  font-size: 10pt;
+}
+.add_button {
+  margin-top: 5px;
+  font-size: 15pt;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #6e4c4b;
+  border: 2pt solid #656d4a;
+}
+.add_button:hover {
+  background-color: #656d4a;
+  border: 2pt solid #6e4c4b;
+}
+
+.add_button a {
+  font-size: 15pt;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #cab6a2;
+}
+
+.logo_footer img {
+  width: 100px;
+  height: auto;
+  border: 2pt solid white;
+  border-radius: 10px;
+}
+.social_footer {
+  float: right;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
